@@ -56,7 +56,7 @@ let recipes = [
         Sodium: 520,
         country: "Egyptian",
         diffeculty: "Intermediate",
-        image: "/images/warak enap.jpg",
+        image: "/images/warak.jpg",
         ingredients: [
             "Grape leaves",
             "Rice",
@@ -136,7 +136,7 @@ let recipes = [
         Sodium: 640,
         country: "Mexican",
         diffeculty: "Easy",
-        image: "/images/Cheesy Beef Wrap.jpg",
+        image: "/images/cheesy.jpg",
         ingredients: [
             "8 tortilla wraps",
             "400g minced beef",
@@ -214,7 +214,7 @@ let recipes = [
         Sodium: 780,
         country: "Indian",
         diffeculty: "Intermediate",
-        image: "/images/Butter Chicken.jpg",
+        image: "/images/butter.jpg",
         ingredients: [
             "500g chicken breast",
             "Tomato puree",
@@ -253,7 +253,7 @@ let recipes = [
         Sodium: 540,
         country: "Egyptian",
         diffeculty: "Intermediate",
-        image: "/images/Koshari.jpg",
+        image: "/images/koshari.jpg",
         ingredients: [
             "Rice",
             "Brown lentils",
@@ -456,7 +456,7 @@ function getRandomRecipe(){
     document.getElementById("country").innerHTML = randomrecipe.country;
     document.getElementById("diff").innerHTML = randomrecipe.diffeculty;
     document.getElementById("recipeImg").innerHTML =`
-               <img src="/images/pasta.jpg" class="w-100 h-100 img-fluid" alt="rcipe">
+               <img src="${randomrecipe.image}" class="w-100 h-100 img-fluid" alt="rcipe">
     `;
     return randomrecipe;
 }
