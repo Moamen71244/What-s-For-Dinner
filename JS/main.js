@@ -456,7 +456,7 @@ function getRandomRecipe(){
     document.getElementById("country").innerHTML = randomrecipe.country;
     document.getElementById("diff").innerHTML = randomrecipe.diffeculty;
     document.getElementById("recipeImg").innerHTML =`
-               <img src="/Images/pasta.jpg" class="w-100 h-100 img-fluid" alt="rcipe">
+               <img src="/images/pasta.jpg" class="w-100 h-100 img-fluid" alt="rcipe">
     `;
     return randomrecipe;
 }
