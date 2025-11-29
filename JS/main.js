@@ -17,7 +17,7 @@ let recipes = [
         Sodium: 700,
         country: "Egyptian",
         diffeculty: "Easy",
-        image: "../images/molokhia.jpg",
+        image: "/images/molokhia.jpg",
         ingredients: [
             "Molokhia leaves",
             "Chicken broth",
@@ -56,7 +56,7 @@ let recipes = [
         Sodium: 520,
         country: "Egyptian",
         diffeculty: "Intermediate",
-        image: "../images/warak enap.jpg",
+        image: "/images/warak enap.jpg",
         ingredients: [
             "Grape leaves",
             "Rice",
@@ -95,7 +95,7 @@ let recipes = [
         Sodium: 850,
         country: "Italian-American",
         diffeculty: "Easy",
-        image: "../images/pasta.jpg",
+        image: "/images/pasta.jpg",
         ingredients: [
             "300g fettuccine pasta",
             "2 chicken breasts, sliced",
@@ -136,7 +136,7 @@ let recipes = [
         Sodium: 640,
         country: "Mexican",
         diffeculty: "Easy",
-        image: "../images/Cheesy Beef Wrap.jpg",
+        image: "/images/Cheesy Beef Wrap.jpg",
         ingredients: [
             "8 tortilla wraps",
             "400g minced beef",
@@ -175,7 +175,7 @@ let recipes = [
         Sodium: 900,
         country: "Chinese",
         diffeculty: "Easy",
-        image: "../images/recipe10.jpg",
+        image: "/images/recipe10.jpg",
         ingredients: [
             "2 cups cooked rice",
             "200g shrimp",
@@ -214,7 +214,7 @@ let recipes = [
         Sodium: 780,
         country: "Indian",
         diffeculty: "Intermediate",
-        image: "../images/Butter Chicken.jpg",
+        image: "/images/Butter Chicken.jpg",
         ingredients: [
             "500g chicken breast",
             "Tomato puree",
@@ -253,7 +253,7 @@ let recipes = [
         Sodium: 540,
         country: "Egyptian",
         diffeculty: "Intermediate",
-        image: "./images/Koshari.jpg",
+        image: "/images/Koshari.jpg",
         ingredients: [
             "Rice",
             "Brown lentils",
@@ -292,7 +292,7 @@ let recipes = [
         Sodium: 720,
         country: "Saudi Arabian",
         diffeculty: "Intermediate",
-        image: "./images/kapsa.jpg",
+        image: "/images/kapsa.jpg",
         ingredients: [
             "Chicken pieces",
             "Basmati rice",
@@ -334,7 +334,7 @@ let recipes = [
         Sodium: 780,
         country: "Egyptian",
         diffeculty: "Easy",
-        image: "./images/hawawshi.jpg",
+        image: "/images/hawawshi.jpg",
         ingredients: [
             "Arabic bread",
             "Minced beef",
@@ -372,7 +372,7 @@ let recipes = [
         Sodium: 750,
         country: "Italian",
         diffeculty: "Intermediate",
-        image: "./images/recipe10.jpg",
+        image: "/images/recipe10.jpg",
         ingredients: [
             "200g spaghetti",
             "2 eggs",
