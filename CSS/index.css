@@ -5,6 +5,9 @@
     --light-bg: #f8f9fa;
     --secondary-text-color: #5b5b5b;
 }
+html{
+    font-size: 12px;
+}
 .primary-orange{
     color: var(--primary-orange);
 }
@@ -22,16 +25,17 @@ nav{
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.144);
 }
 .app-header-title {
+    font-size: 1rem;
     font-weight: 600;
     color: var(--main-text-color);
-    line-height: 1.2;
+    line-height: 1.;
 }
 .app-header-subtitle {
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     color: var(--secondary-text-color);
 }
 .haeder-icon{
-    width: 45px;
+    width: 2.5rem;
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
@@ -49,24 +53,21 @@ nav{
     color: var(--primary-orange);
 }
 .header-profile-img {
-    width:35px;
-    height:35px;
+    width:25px;
+    height:25px;
     object-fit: cover;
     border: 2px solid var(--primary-orange);
 }
 .recipe-card {
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-    height: 600px;
-    overflow-y: auto; 
+     border-radius: 1rem;
+     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+
 }
 .image-col {
     position: relative;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
     overflow: hidden;
-    height: 100%; 
+    height: 350px; 
 }
 .recipe-image {
     width: 100%;
@@ -97,7 +98,7 @@ nav{
     bottom: 1rem;
     width: 80%;
     left: 10%;
-    padding: 0.8rem 0; 
+    padding-top: 0.8rem; 
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
@@ -107,7 +108,7 @@ nav{
     text-align: center;
     font-size: 0.7rem;
     text-transform: capitalize;
-    line-height: 1.3;
+    line-height: 1.1;
 }
 .right-side{
     padding: 2.2rem 2.5rem;
