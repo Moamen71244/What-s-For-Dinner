@@ -1,58 +1,29 @@
-@media (max-width: 1023px) {
-    html{
-        font-size: 12px;
-    }
-    .container{
-        width: 90%;
-    }
-    .image-col {
-        border-radius: 1rem 1rem 0 0; 
-        height: 350px;
-    }
-
-    .tap-content{
-        scrollbar-color: transparent;
-    }
-    .recipe-card {
-        border-radius: 20px;
-        height: auto;
-        box-shadow: none; 
-        border-radius: 0;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    .time-info-bar {
-        padding: 10px;
-        width: 80%;
-        left: 10%;
-    }
-    
-    .right-side {
-        padding: 1.5rem;
-    }
-
-    .recipe-title {
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .tab-menu .nav-link {
-        padding: 0.5rem 0.5rem; 
-        margin-right: 0.75rem;
-        font-size: 0.7rem;
-    }
-    
-
-    #ingredients, #instructions {
-        max-height: 250px;
-    }
-
-    .action-button {
-        width: 35px;
-        height: 35px;
-        font-size: 1rem;
-    }
+@media (min-width: 576px) {
 
 
 }
+@media (min-width: 768px) {
+    html{
+        font-size: 17px;
+    }
+
+}
+@media (min-width: 990px) {
+    html{
+        font-size: 18px;
+    }
+    .content{
+        height: 43.75rem;
+    }
+    .image-col {
+    height: 100%; 
+}
+.header-profile-img {
+    width:35px;
+    height:35px;
+    object-fit: cover;
+    border: 2px solid var(--primary-orange);
+}
+
+}
+
